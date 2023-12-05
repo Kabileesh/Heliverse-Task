@@ -47,7 +47,7 @@ const TeamHome = () => {
                 <div>
                   <li
                     key={index}
-                    className="py-3 sm:py-4 bg-slate-200 rounded-xl"
+                    className="py-3 sm:py-4 mb-4 bg-slate-200 rounded-xl"
                   >
                     <div className="flex flex-wrap ml-4 justify-between items-center gap-6">
                       <div className="flex flex-wrap gap-4 md:gap-12 p-2">

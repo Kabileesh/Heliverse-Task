@@ -59,7 +59,7 @@ const UserCard = (props) => {
   };
 
   return (
-    <div className="w-full max-w-sm bg-blue-100 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+    <div className="w-fit sm:w-full mx-auto md:items-center bg-blue-100 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
       <div className="flex justify-end px-4 pt-4">
         <button onClick={DeleteHandler}>
           <DeleteIcon />
@@ -80,7 +80,7 @@ const UserCard = (props) => {
         <span className="text-xs text-gray-500 dark:text-gray-400">
           {props.userData.gender}
         </span>
-        <div className="flex mt-4 md:mt-6">
+        <div className="flex mt-4 md:mt-6 px-4">
           <button
             className="inline-flex items-center px-4 py-2 text-xs font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-2 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
             onClick={ViewDetailsHandler}

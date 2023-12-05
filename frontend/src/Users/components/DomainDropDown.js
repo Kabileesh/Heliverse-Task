@@ -32,7 +32,7 @@ const DomainDropDown = () => {
   };
 
   return (
-    <div className="relative">
+    <div className="relative z-10">
       <button
         id="dropdownAvatarNameButton"
         data-dropdown-toggle="dropdownAvatarName"
